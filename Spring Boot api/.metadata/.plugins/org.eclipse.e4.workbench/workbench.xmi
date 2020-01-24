@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WeddingBackendApplication.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/WeddingBackendApplication.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/WeddingBackendApplication.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AdminDAOImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/AdminDAOImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/AdminDAOImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VendorDaoImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/VendorDaoImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/VendorDaoImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;String.class&quot; tooltip=&quot;java.lang.String&quot;>&#xD;&#xA;&lt;persistable org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=WeddingBackend/C:\/Program Files\/Java\/jdk1.8.0_221\/jre\/lib\/rt.jar&amp;lt;java.lang(String.class&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IVendorService.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/IVendorService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/IVendorService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VendorServiceImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/VendorServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/VendorServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IVendorDao.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/IVendorDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/IVendorDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IVenueDao.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/IVenueDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/IVenueDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VendorController.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/controller/VendorController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/controller/VendorController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VenueController.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/controller/VenueController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/controller/VenueController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Vendor.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/pojos/Vendor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/pojos/Vendor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VenueServiceImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/VenueServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/VenueServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IAdminDao.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/IAdminDao.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/IAdminDao.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Address.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/pojos/Address.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/pojos/Address.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;EventController.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/controller/EventController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/controller/EventController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Venue.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/pojos/Venue.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/pojos/Venue.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IVenueService.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/IVenueService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/IVenueService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LoginController.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/controller/LoginController.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/controller/LoginController.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;UserServiceImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/UserServiceImpl.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/UserServiceImpl.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IUserService.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/IUserService.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/IUserService.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_Ow8lsjb0EeqFArMa4x1PNg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_O_q-MDb0EeqFArMa4x1PNg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="976" height="1038">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Ow8lsjb0EeqFArMa4x1PNg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_O_q-MDb0EeqFArMa4x1PNg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="976" height="788">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -269,8 +269,9 @@
           <tags>persp.actionSet:ajelementCreation</tags>
           <tags>persp.newWizSC:ajaspectwizard</tags>
           <tags>persp.perspSC:org.eclipse.ajdt.ui.visualiser.AspectVisualizationPerspective</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_2IiQETb0EeqFArMa4x1PNg" selectedElement="_2IiQFzb0EeqFArMa4x1PNg" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_2IiQETb0EeqFArMa4x1PNg" selectedElement="_2IiQEjb0EeqFArMa4x1PNg" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_2IiQEjb0EeqFArMa4x1PNg" elementId="topLeft" containerData="2500" selectedElement="_2IiQEzb0EeqFArMa4x1PNg">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_2IiQEzb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_PEOuEjb0EeqFArMa4x1PNg" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -603,54 +604,9 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_PD_dgDb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.editorss" selectedElement="_PD_dgTb0EeqFArMa4x1PNg">
-      <children xsi:type="basic:PartStack" xmi:id="_PD_dgTb0EeqFArMa4x1PNg" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_6fowUDzgEeq4BM1EVRmprQ">
+      <children xsi:type="basic:PartStack" xmi:id="_PD_dgTb0EeqFArMa4x1PNg" elementId="org.eclipse.e4.primaryDataStack">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_0rK-sDzdEeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="VendorController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VendorController.java&quot; partName=&quot;VendorController.java&quot; title=&quot;VendorController.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/controller/VendorController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/controller/VendorController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2133&quot; selectionTopPixel=&quot;406&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_a7NyMDzeEeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="IVendorService.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;IVendorService.java&quot; partName=&quot;IVendorService.java&quot; title=&quot;IVendorService.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/IVendorService.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/IVendorService.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;269&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_uj8FQDzeEeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="VendorServiceImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VendorServiceImpl.java&quot; partName=&quot;VendorServiceImpl.java&quot; title=&quot;VendorServiceImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/service/VendorServiceImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/service/VendorServiceImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;1&quot; selectionOffset=&quot;1207&quot; selectionTopPixel=&quot;519&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_6fowUDzgEeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="WeddingBackendApplication.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;WeddingBackendApplication.java&quot; partName=&quot;WeddingBackendApplication.java&quot; title=&quot;WeddingBackendApplication.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/WeddingBackendApplication.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/WeddingBackendApplication.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;326&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_qT7yYD0PEeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="VendorDaoImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;VendorDaoImpl.java&quot; partName=&quot;VendorDaoImpl.java&quot; title=&quot;VendorDaoImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/VendorDaoImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/VendorDaoImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;899&quot; selectionTopPixel=&quot;528&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_cxOz0D06Eeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="String.class" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/classf_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.ClassFileEditor&quot; name=&quot;String.class&quot; partName=&quot;String.class&quot; title=&quot;String.class&quot; tooltip=&quot;java.lang.String&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.jdt.ui.ClassFileEditorInputFactory&quot; org.eclipse.jdt.ui.ClassFileIdentifier=&quot;=WeddingBackend/C:\/Program Files\/Java\/jdk1.8.0_221\/jre\/lib\/rt.jar&amp;lt;java.lang(String.class&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;6&quot; selectionOffset=&quot;3617&quot; selectionTopPixel=&quot;1560&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.ClassFileEditor</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_-pxmID07Eeq4BM1EVRmprQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AdminDAOImpl.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;AdminDAOImpl.java&quot; partName=&quot;AdminDAOImpl.java&quot; title=&quot;AdminDAOImpl.java&quot; tooltip=&quot;WeddingBackend/src/main/java/com/weddingplanner/daos/AdminDAOImpl.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/WeddingBackend/src/main/java/com/weddingplanner/daos/AdminDAOImpl.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1050&quot; selectionTopPixel=&quot;159&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
-        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_PEMR0Db0EeqFArMa4x1PNg" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
@@ -683,6 +639,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_2I1yEDb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -900,7 +858,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PBCQIDb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_HKUAUD6bEeq7tYsa--YP_A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_OxWOdTb0EeqFArMa4x1PNg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JTVmsD65Eeq0g5mYLvNABA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_OxWOdTb0EeqFArMa4x1PNg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PBC3MDb0EeqFArMa4x1PNg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -925,7 +883,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_PXVQQDb0EeqFArMa4x1PNg" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_U5SyEDb2EeqFArMa4x1PNg" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
+      <children xsi:type="menu:ToolBar" xmi:id="_U5SyEDb2EeqFArMa4x1PNg" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PX6fEDb0EeqFArMa4x1PNg" elementId="org.eclipse.wst.server.ui.internal.webbrowser.actionSet">
@@ -940,7 +898,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PBC3Nzb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_HKXqsD6bEeq7tYsa--YP_A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_OxVnjjb0EeqFArMa4x1PNg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JTafMD65Eeq0g5mYLvNABA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_OxVnjjb0EeqFArMa4x1PNg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_PBDeQDb0EeqFArMa4x1PNg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1221,7 +1179,6 @@
     <bindings xmi:id="_OxsMozb0EeqFArMa4x1PNg" keySequence="CTRL+SHIFT+F12" command="_OxRV2Tb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxszoDb0EeqFArMa4x1PNg" keySequence="CTRL+SHIFT+F4" command="_OxTLKTb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxszpDb0EeqFArMa4x1PNg" keySequence="CTRL+SHIFT+F6" command="_OxVAhjb0EeqFArMa4x1PNg"/>
-    <bindings xmi:id="_OxszqDb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X G" command="_OxR9Izb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxszrTb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X J" command="_OxVnVTb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_Oxszrzb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X M" command="_OxTySzb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxszsDb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X A" command="_OxRV-jb0EeqFArMa4x1PNg"/>
@@ -1243,7 +1200,6 @@
     <bindings xmi:id="_Oxuo5Tb0EeqFArMa4x1PNg" keySequence="ALT+CTRL+SHIFT+ARROW_RIGHT" command="_OxVATzb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_Oxuo5jb0EeqFArMa4x1PNg" keySequence="ALT+CTRL+SHIFT+B D" command="_OxWO4Tb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_Oxuo5zb0EeqFArMa4x1PNg" keySequence="ALT+CTRL+SHIFT+B F" command="_OxSkDzb0EeqFArMa4x1PNg"/>
-    <bindings xmi:id="_Oxuo6Db0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X N" command="_OxR9Jzb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxvP4Db0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X O" command="_OxVAbTb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxvP4zb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+X P" command="_OxWO7Db0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxvP5Db0EeqFArMa4x1PNg" keySequence="CTRL+SHIFT+NUMPAD_MULTIPLY" command="_OxVAezb0EeqFArMa4x1PNg"/>
@@ -1260,13 +1216,11 @@
     <bindings xmi:id="_OxweCDb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D B" command="_OxWO2jb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxweCTb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D C" command="_OxVnezb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxweCjb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D E" command="_OxW1mzb0EeqFArMa4x1PNg"/>
-    <bindings xmi:id="_OxweCzb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D G" command="_OxTLPDb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxweDDb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D A" command="_OxWOYjb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxweDTb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D R" command="_OxTyczb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxweDjb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D T" command="_OxQu2jb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxxFEDb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D X" command="_OxTyZjb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxxFETb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D J" command="_OxVnhTb0EeqFArMa4x1PNg"/>
-    <bindings xmi:id="_OxxFEjb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D N" command="_OxR9Bzb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxxFEzb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D O" command="_OxUZXTb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxxFFDb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D P" command="_OxWOcTb0EeqFArMa4x1PNg"/>
     <bindings xmi:id="_OxxFFTb0EeqFArMa4x1PNg" keySequence="ALT+SHIFT+D Q" command="_OxTyWDb0EeqFArMa4x1PNg"/>
@@ -2344,12 +2298,6 @@
     <persistedState key="originalCompatibilityViewBundle" value="org.springsource.ide.eclipse.commons.browser"/>
     <tags>View</tags>
     <tags>categoryTag:Spring</tags>
-  </descriptors>
-  <descriptors xmi:id="_O_nT0Tb0EeqFArMa4x1PNg" elementId="org.testng.eclipse.ResultView" label="TestNG" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" tooltip="" category="Java" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
-    <persistedState key="originalCompatibilityViewClass" value="org.testng.eclipse.ui.TestRunnerViewPart"/>
-    <persistedState key="originalCompatibilityViewBundle" value="org.testng.eclipse"/>
-    <tags>View</tags>
-    <tags>categoryTag:Java</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -3632,7 +3580,7 @@
   <addons xmi:id="_Ow9MzDb0EeqFArMa4x1PNg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_Ow9MzTb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_OxBeMDb0EeqFArMa4x1PNg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IPgLIT65Eeq0g5mYLvNABA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_OxPgoDb0EeqFArMa4x1PNg" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_OxPgoTb0EeqFArMa4x1PNg" elementId="org.eclipse.mylyn.wikitext.ui.editor.category" name="WikiText Markup Editing Commands" description="commands for editing lightweight markup"/>
