@@ -90,7 +90,7 @@ public class VendorController
 		Vendor theVendor=service.getVendorById(vendorId);
 		theVendor.setStatus("0");
 		service.updateVendorDetails(theVendor);
-		return new ResponseEntity<Vendor>(theVendor,HttpStatus.OK);
+        return new ResponseEntity<Vendor>(theVendor,HttpStatus.OK);
 
 	}
 	 
