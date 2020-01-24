@@ -1,5 +1,0 @@
-package com.weddingplanner.service;
-
-public interface IUserService {
-
-}

@@ -1,5 +1,0 @@
-package com.weddingplanner.daos;
-
-public class UserDAOImpl {
-
-}

@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="E:\UpdatedProject\BackEnd\Spring Boot api\WeddingBackend"/>
 			<item value="D:\Module Wise Data CDAC 2019\Advanced Java Materials (Day wise)\day15_help\spring-angular\eclipse_projects-backend\day14.3_spring_data_jpa"/>
 		</list>
 		<list key="projectNameTemplate">

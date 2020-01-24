@@ -1,7 +1,0 @@
-package com.weddingplanner.daos;
-
-public interface IUserDao 
-{
-
-	String validateUser(String uname,String pwd);
-}
