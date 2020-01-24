@@ -1,0 +1,148 @@
+package com.weddingplanner.pojos;
+
+import java.util.Arrays;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;;
+
+
+@Entity
+@Table(name = "tbl_Vendor")
+public class Vendor 
+{
+	private Integer userID;
+	private String firstName,lastName,email;
+	private int contactNo;
+	private Address addr;
+	private byte[] profilePhoto;
+	private Date createdDate;
+	private Date lastModifiedDate;
+	
+	public Vendor()
+	{
+		System.out.println("In Vendor Default constructor");
+	}
+
+	public Vendor(Integer userID, String firstName, String lastName, String email, int contactNo, Address addr,
+			byte[] profilePhoto, Date createdDate, Date lastModifiedDate) {
+		super();
+		this.userID = userID;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.contactNo = contactNo;
+		this.addr = addr;
+		this.profilePhoto = profilePhoto;
+		this.createdDate = createdDate;
+		this.lastModifiedDate = lastModifiedDate;
+	}
+
+	public Vendor(String firstName, String lastName, String email, int contactNo, Address addr, byte[] profilePhoto,
+			Date createdDate, Date lastModifiedDate) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.contactNo = contactNo;
+		this.addr = addr;
+		this.profilePhoto = profilePhoto;
+		this.createdDate = createdDate;
+		this.lastModifiedDate = lastModifiedDate;
+	}
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	public Integer getUserID() {
+		return userID;
+	}
+
+	public void setUserID(Integer userID) {
+		this.userID = userID;
+	}
+
+	@Column(length = 30)
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	@Column(length = 30)
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	@Column(length = 50)
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	@Column(length = 10)
+	public int getContactNo() {
+		return contactNo;
+	}
+
+	public void setContactNo(int contactNo) {
+		this.contactNo = contactNo;
+	}
+
+	@Embedded
+	public Address getAddr() {
+		return addr;
+	}
+
+	public void setAddr(Address addr) {
+		this.addr = addr;
+	}
+
+	public byte[] getProfilePhoto() {
+		return profilePhoto;
+	}
+
+	public void setProfilePhoto(byte[] profilePhoto) {
+		this.profilePhoto = profilePhoto;
+	}
+
+	public Date getCreatedDate() {
+		return createdDate;
+	}
+
+	public void setCreatedDate(Date createdDate) {
+		this.createdDate = createdDate;
+	}
+
+	public Date getLastModifiedDate() {
+		return lastModifiedDate;
+	}
+
+	public void setLastModifiedDate(Date lastModifiedDate) {
+		this.lastModifiedDate = lastModifiedDate;
+	}
+
+	@Override
+	public String toString() {
+		return "Vendor [userID=" + userID + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", contactNo=" + contactNo + ", addr=" + addr + ", profilePhoto=" + Arrays.toString(profilePhoto)
+				+ ", createdDate=" + createdDate + ", lastModifiedDate=" + lastModifiedDate + "]";
+	}
+	
+	
+	
+	
+}

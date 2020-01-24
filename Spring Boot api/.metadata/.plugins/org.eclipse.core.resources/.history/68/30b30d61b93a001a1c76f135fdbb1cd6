@@ -1,0 +1,51 @@
+package com.weddingplanner.pojos;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		boolean flag =false;
+		
+		int bcount=0,ncount=0,mcount=0,scount=0;
+	
+		
+		Scanner sc=new Scanner(System.in);
+		while(!flag)
+		{
+		System.out.println("1.  BJP");
+		System.out.println("2.  NCP");
+		System.out.println("3.  MANSE");
+		System.out.println("4.  Shivsena");
+		System.out.println("5. Show result");
+		System.out.println("5. Show winner");
+		System.out.println("6. exit");
+		
+		System.out.println("Enter your choice");
+		int choice;
+		switch (sc.nextInt()) {
+		
+		case 1:
+			bcount=bcount+1;
+			break;
+			
+		case 2:
+			ncount=ncount+1;
+			break;
+		case 3:
+			mcount=mcount+1;
+			break;
+		case 4:
+			scount=scount+1;
+			break;
+			
+
+		default:
+			break;
+		}
+		}
+	}
+
+}

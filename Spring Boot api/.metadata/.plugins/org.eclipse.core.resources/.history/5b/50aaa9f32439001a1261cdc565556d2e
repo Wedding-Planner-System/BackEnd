@@ -1,0 +1,17 @@
+package com.weddingplanner.daos;
+
+public class UserDAOImpl implements IUserDao
+{
+	
+	public UserDAOImpl()
+	{
+		System.out.println("in user dao");
+	}
+
+	@Override
+	public String validateUser(String uname, String pwd) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

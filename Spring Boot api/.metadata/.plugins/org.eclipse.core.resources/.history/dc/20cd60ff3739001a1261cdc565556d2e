@@ -1,0 +1,9 @@
+package com.weddingplanner.daos;
+
+import com.weddingplanner.pojos.AdminLogin;
+
+public interface IUserDao 
+{
+
+	AdminLogin validateUser(String uname,String pwd);
+}

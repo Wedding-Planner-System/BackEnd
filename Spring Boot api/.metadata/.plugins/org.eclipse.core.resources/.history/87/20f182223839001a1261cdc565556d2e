@@ -1,0 +1,9 @@
+package com.weddingplanner.service;
+
+import com.weddingplanner.pojos.AdminLogin;
+
+public interface IUserService 
+{
+
+	AdminLogin validateUser(String uname,String pwd);
+}

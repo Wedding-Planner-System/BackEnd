@@ -1,0 +1,7 @@
+package com.weddingplanner.service;
+
+public interface IUserService 
+{
+
+	String validateUser(String uname,String pwd);
+}

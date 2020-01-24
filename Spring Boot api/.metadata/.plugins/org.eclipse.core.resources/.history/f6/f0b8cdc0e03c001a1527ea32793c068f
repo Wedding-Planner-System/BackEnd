@@ -1,0 +1,60 @@
+package com.weddingplanner.daos;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import org.hibernate.Session;
+import org.springframework.stereotype.Repository;
+
+import com.weddingplanner.pojos.Vendor;
+
+@Repository
+public class VendorDaoImpl  implements IVendorDao{
+	
+	@PersistenceContext
+	private EntityManager mgr;
+	
+	public VendorDaoImpl() 
+	{
+		System.out.println("in Vendor dao");
+	
+	}
+	
+	
+	@Override
+	public Vendor saveVendorDetails(Vendor v) {
+		// TODO Auto-generated method stub
+		
+		mgr.unwrap(Session.class).persist(v);//persistent
+		return v;
+	}
+
+
+	@Override
+	public List<Vendor> getAllVendors() {
+		String jpql = "select v from Vendor v";
+		return mgr.unwrap(Session.class).
+				createQuery(jpql, Vendor.class).getResultList();
+	}
+
+
+	@Override
+	public Vendor getVendorByEmail(String email) {
+		// TODO Auto-generated method stub
+		String jpql="select v from Vendor v where v.email=:email";
+		try
+		{
+			System.out.println("test");
+		return mgr.unwrap(Session.class).createQuery(jpql, Vendor.class).setParameter("email", email).getSingleResult();
+	
+		}
+		catch(Exception e)
+		{
+			System.out.println("test1");
+			return null;
+		}
+	}
+}

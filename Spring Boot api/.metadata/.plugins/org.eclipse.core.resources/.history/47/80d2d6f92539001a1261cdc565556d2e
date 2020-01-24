@@ -1,0 +1,5 @@
+package com.weddingplanner.service;
+
+public class UserServiceImpl {
+
+}

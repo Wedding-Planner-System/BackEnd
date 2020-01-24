@@ -1,0 +1,14 @@
+package com.weddingplanner.daos;
+
+import java.util.List;
+
+import com.weddingplanner.pojos.Vendor;
+
+public interface IVendorDao {
+	
+	public Vendor saveVendorDetails(Vendor v);
+	
+	public List<Vendor> getAllVendors();
+	
+	
+}

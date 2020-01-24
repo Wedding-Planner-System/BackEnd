@@ -1,0 +1,84 @@
+package com.weddingplanner.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.weddingplanner.daos.IVenueDao;
+import com.weddingplanner.pojos.Venue;
+
+
+
+@Service
+@Transactional
+public class VenueServiceImpl implements IVenueService {
+	@Autowired
+	private IVenueDao dao;
+
+	@Override
+	public List<Employee> getAllEmps() {
+		// TODO Auto-generated method stub
+		return dao.findAllEmps();
+	}
+
+	@Override
+	public Employee getEmpDetails(int id) {
+				return dao.findById(id).get();
+	}
+
+	@Override
+	public Employee addNewEmpDetails(Employee e) {
+		// TODO Auto-generated method stub
+		return dao.save(e);
+	}
+	
+	@Override
+	public void deleteEmp(int empId) {
+		dao.deleteById(empId);
+		
+	}
+
+	@Override
+	public Employee updateEmpDetails(Employee e) {
+		return dao.save(e);
+		
+	}
+
+	@Override
+	public List<Venue> getAllVenues() {
+		// TODO Auto-generated method stub
+		return dao.findAllVenues();
+	}
+
+	@Override
+	public Venue getVenueDetails(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Venue addNewVenueDetails(Venue v) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteVenue(int venueId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Venue updateVenueDetails(Venue v) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+	
+	
+	
+
+}

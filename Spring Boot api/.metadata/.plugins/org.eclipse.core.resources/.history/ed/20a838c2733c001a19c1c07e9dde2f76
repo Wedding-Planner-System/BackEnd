@@ -1,0 +1,71 @@
+package com.weddingplanner.pojos;
+
+import java.util.Arrays;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;;
+
+
+@Entity
+@Table(name = "tbl_Vendor")
+public class Vendor 
+{
+	private Integer venodrID;
+	private String firstName,lastName,email;
+	private int contactNo;
+	private Address addr;
+	private String serviceType;
+	private Date createdDate;
+	private Date lastModifiedDate;
+	
+	public Vendor()
+	{
+		System.out.println("In Vendor Default constructor");
+	}
+
+	
+
+	public Vendor(String firstName, String lastName, String email, int contactNo, Address addr, String serviceType,
+			Date createdDate, Date lastModifiedDate) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.contactNo = contactNo;
+		this.addr = addr;
+		this.serviceType = serviceType;
+		this.createdDate = createdDate;
+		this.lastModifiedDate = lastModifiedDate;
+	}
+
+	
+	
+
+
+	public Vendor(Integer venodrID, String firstName, String lastName, String email, int contactNo, Address addr,
+			String serviceType, Date createdDate, Date lastModifiedDate) {
+		super();
+		this.venodrID = venodrID;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.contactNo = contactNo;
+		this.addr = addr;
+		this.serviceType = serviceType;
+		this.createdDate = createdDate;
+		this.lastModifiedDate = lastModifiedDate;
+	}
+
+
+
+	
+	
+	
+	
+}

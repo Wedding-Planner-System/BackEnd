@@ -1,0 +1,23 @@
+package com.weddingplanner.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.weddingplanner.daos.IUserDao;
+
+public class UserServiceImpl  implements IUserService
+{
+	
+	@Autowired
+	IUserDao dao;
+	
+	public UserServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String validateUser(String uname, String pwd) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,29 @@
+package com.weddingplanner.daos;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.weddingplanner.pojos.AdminLogin;
+
+public class UserDAOImpl implements IUserDao
+{
+	
+	@Autowired
+	SessionFactory sf;
+	public UserDAOImpl()
+	{
+		System.out.println("in user dao");
+	}
+
+	@Override
+	public String validateUser(String uname, String pwd) {
+		// TODO Auto-generated method stub
+		
+		String jpql="select * from AdminLogin a where a.username=:un and a.password=:pwd";
+		AdminLogin alogin=sf.getCurrentSession().createQuery(jpql,AdminLogin.class).setParameter("un", uname).setParameter("pwd", pwd).getSingleResult();
+		if(alogin!=null)
+			return "Success";
+		return "Failed"
+	}
+
+}

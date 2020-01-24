@@ -1,0 +1,44 @@
+/*
+ *  author: Poonam K
+ *  Date: 16-01-2020
+ */
+
+package com.weddingplanner.pojos;
+
+import javax.persistence.Embeddable;
+
+@Embeddable
+public class Address 
+{	
+	
+	private String area,street,city,state,pinCode;	
+	
+	public Address()
+	{
+		System.out.println("in Address Default constructor");
+	}
+
+
+	public Address(String area, String streetNo, String city, String state, String pinCode) {
+		super();
+		System.out.println("in cons");
+		this.area = area;
+		this.street = streetNo;
+		this.city = city;
+		this.state = state;
+		this.pinCode = pinCode;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Address [area=" + area + ", street=" + street + ", city=" + city + ", state=" + state + ", pinCode="
+				+ pinCode + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
+	
+	
+	
+	
+
+}

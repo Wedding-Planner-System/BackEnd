@@ -1,0 +1,19 @@
+package com.weddingplanner.pojos;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		boolean flag =false;
+		
+		while(!flag)
+		{
+		System.out.println("1.  BJP");
+		System.out.println("2.  NCP");
+		System.out.println("3.  MANSE");
+		System.out.println("4.  Shivsena");
+		}
+	}
+
+}
