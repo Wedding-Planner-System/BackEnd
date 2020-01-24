@@ -24,6 +24,9 @@ public class Package {
 	private String packageName;
 	private double packageAmount;
 	private byte[] packageImage;
+	private String packageType;//catering or decoration
+
+
 
 	public Package() {
 		
@@ -31,22 +34,32 @@ public class Package {
 		System.out.println("In Package def ctor");
 	}
 
-	public Package(int vendorId, String packageName, double packageAmount, byte[] packageImage) {
+
+
+	public Package(int vendorId, String packageName, double packageAmount, byte[] packageImage, String packageType) {
 		super();
 		this.vendorId = vendorId;
 		this.packageName = packageName;
 		this.packageAmount = packageAmount;
 		this.packageImage = packageImage;
+		this.packageType = packageType;
 	}
 
-	public Package(Integer packageId, int vendorId, String packageName, double packageAmount, byte[] packageImage) {
+	
+
+
+	public Package(Integer packageId, int vendorId, String packageName, double packageAmount, byte[] packageImage,
+			String packageType) {
 		super();
 		this.packageId = packageId;
 		this.vendorId = vendorId;
 		this.packageName = packageName;
 		this.packageAmount = packageAmount;
 		this.packageImage = packageImage;
+		this.packageType = packageType;
 	}
+
+ 
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -90,5 +103,24 @@ public class Package {
 	public void setPackageImage(byte[] packageImage) {
 		this.packageImage = packageImage;
 	}
+	public String getPackageType() {
+		return packageType;
+	}
+
+
+
+	public void setPackageType(String packageType) {
+		this.packageType = packageType;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "Package [packageId=" + packageId + ", vendorId=" + vendorId + ", packageName=" + packageName
+				+ ", packageAmount=" + packageAmount + ", packageImage=" + Arrays.toString(packageImage)
+				+ ", packageType=" + packageType + "]";
+	}
+
 
 }
