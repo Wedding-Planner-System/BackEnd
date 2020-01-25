@@ -68,17 +68,20 @@ public class VenueController
 			for(int i=0;i<=allVenues.size()-1;i++)
 			{
 				Venue v=allVenues.get(i);
-				String path = "E:/menu.jpg";
-				FileInputStream imgStream = new FileInputStream(path);
+				
+				System.out.println(v.getVenueImage().toString());
+				String str=new String(v.getVenueImage());
+				System.out.println(str);
+				System.out.println(str.getBytes());
+				FileInputStream imgStream = new FileInputStream("D:/img_2020-01-22.jpg");
 				BufferedImage img = ImageIO.read(imgStream);
 				ByteArrayOutputStream out = new ByteArrayOutputStream();
 				ImageIO.write(img, "jpg", out);
 				byte[] bytes = out.toByteArray();
-
-				String base64bytes = Base64.getEncoder().encodeToString(bytes);
-				System.out.println(base64bytes);
-			      
-				v.setVenueImage(base64bytes.getBytes());
+			String base64bytes = org.apache.tomcat.util.codec.binary.Base64.encodeBase64String(bytes);
+			System.out.println(base64bytes);
+	      
+			v.setVenueImage(base64bytes.getBytes());
 				
 			}
 			return new ResponseEntity<List<Venue>>(allVenues, HttpStatus.OK);
@@ -104,16 +107,16 @@ public class VenueController
 			
 			
 			
-			BufferedImage img = ImageIO.read(new ByteArrayInputStream(venue.getVenueImage()));
+			BufferedImage img = ImageIO.read(new ByteArrayInputStream(venue.getVenueImage()));	
 			System.out.println(img);
-			LocalDate dt=LocalDate.now();
+		LocalDate dt=LocalDate.now();
 			String imgname="img_"+dt.toString();
 			File outputfile = new File("D:/"+imgname+".jpg");
 			ImageIO.write(img, "jpg", outputfile);
 			
-			theVenue.setVenueImage(outputfile.getPath().getBytes());
+			theVenue.setImageName(outputfile.getPath());
 			
-			System.out.println(theVenue.toString());
+			System.out.println(venue.toString());
 			
 			
 			return new ResponseEntity<Venue>(service.addNewVenueDetails(theVenue), HttpStatus.CREATED);

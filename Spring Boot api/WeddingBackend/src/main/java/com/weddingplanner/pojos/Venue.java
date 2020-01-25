@@ -34,8 +34,10 @@ public class Venue
 	private String extra;
 	@Lob
 	private byte[] venueImage;
+	private String imageName;
 	private Date createdDate;
 	private Date lastModifiedDate;
+	
 	
 	//default constructor
 	public Venue()
@@ -43,9 +45,9 @@ public class Venue
 		System.out.println("in Venue default constructor");
 	}
 
-	//paramterised construdtor
+
 	public Venue(Integer venueId, String venueName, Address address, double lattitude, double logitude, int capacity,
-			double price, String extra, byte[] venueImage, Date createdDate, Date lastModifiedDate) {
+			double price, String extra, byte[] venueImage, String imageName, Date createdDate, Date lastModifiedDate) {
 		super();
 		this.venueId = venueId;
 		this.venueName = venueName;
@@ -56,12 +58,14 @@ public class Venue
 		this.price = price;
 		this.extra = extra;
 		this.venueImage = venueImage;
+		this.imageName = imageName;
 		this.createdDate = createdDate;
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
+
 	public Venue(String venueName, Address address, double lattitude, double logitude, int capacity, double price,
-			String extra, byte[] venueImage, Date createdDate, Date lastModifiedDate) {
+			String extra, byte[] venueImage, String imageName, Date createdDate, Date lastModifiedDate) {
 		super();
 		this.venueName = venueName;
 		this.address = address;
@@ -71,103 +75,143 @@ public class Venue
 		this.price = price;
 		this.extra = extra;
 		this.venueImage = venueImage;
+		this.imageName = imageName;
 		this.createdDate = createdDate;
 		this.lastModifiedDate = lastModifiedDate;
 	}
+
 
 	public Integer getVenueId() {
 		return venueId;
 	}
 
+
 	public void setVenueId(Integer venueId) {
 		this.venueId = venueId;
 	}
+
 
 	public String getVenueName() {
 		return venueName;
 	}
 
+
 	public void setVenueName(String venueName) {
 		this.venueName = venueName;
 	}
+
 
 	public Address getAddress() {
 		return address;
 	}
 
+
 	public void setAddress(Address address) {
 		this.address = address;
 	}
+
 
 	public double getLattitude() {
 		return lattitude;
 	}
 
+
 	public void setLattitude(double lattitude) {
 		this.lattitude = lattitude;
 	}
+
 
 	public double getLogitude() {
 		return logitude;
 	}
 
+
 	public void setLogitude(double logitude) {
 		this.logitude = logitude;
 	}
+
 
 	public int getCapacity() {
 		return capacity;
 	}
 
+
 	public void setCapacity(int capacity) {
 		this.capacity = capacity;
 	}
+
 
 	public double getPrice() {
 		return price;
 	}
 
+
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
 
 	public String getExtra() {
 		return extra;
 	}
 
+
 	public void setExtra(String extra) {
 		this.extra = extra;
 	}
+
 
 	public byte[] getVenueImage() {
 		return venueImage;
 	}
 
+
 	public void setVenueImage(byte[] venueImage) {
 		this.venueImage = venueImage;
 	}
+
+
+	public String getImageName() {
+		return imageName;
+	}
+
+
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+
 
 	public Date getCreatedDate() {
 		return createdDate;
 	}
 
+
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
+
 
 	public Date getLastModifiedDate() {
 		return lastModifiedDate;
 	}
 
+
 	public void setLastModifiedDate(Date lastModifiedDate) {
 		this.lastModifiedDate = lastModifiedDate;
 	}
+
 
 	@Override
 	public String toString() {
 		return "Venue [venueId=" + venueId + ", venueName=" + venueName + ", address=" + address + ", lattitude="
 				+ lattitude + ", logitude=" + logitude + ", capacity=" + capacity + ", price=" + price + ", extra="
-				+ extra + ", venueImage=" + Arrays.toString(venueImage) + ", createdDate=" + createdDate
-				+ ", lastModifiedDate=" + lastModifiedDate + "]";
+				+ extra + ", venueImage=" + Arrays.toString(venueImage) + ", imageName=" + imageName + ", createdDate="
+				+ createdDate + ", lastModifiedDate=" + lastModifiedDate + "]";
 	}
+
+	//paramterised construdtor
+	
+	
+	
+	
 }
