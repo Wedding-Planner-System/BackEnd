@@ -27,7 +27,7 @@ public class Vendor
 	private String email;
 
 	@Column( length = 10)
-	private int contactNo;
+	private String contactNo;
 	
 	@Embedded
 	private Address address;
@@ -48,7 +48,7 @@ public class Vendor
 	
 
 	
-	public Vendor(Integer venodrID, String firstName, String lastName, String email, int contactNo, Address address,
+	public Vendor(Integer venodrID, String firstName, String lastName, String email, String contactNo, Address address,
 			String serviceType, String status, LocalDate createdDate, LocalDate lastModifiedDate) {
 		super();
 		this.vendorId = venodrID;
@@ -68,7 +68,7 @@ public class Vendor
 
 
 
-	public Vendor(String firstName, String lastName, String email, int contactNo, Address address, String serviceType,
+	public Vendor(String firstName, String lastName, String email, String contactNo, Address address, String serviceType,
 			String status, LocalDate createdDate, LocalDate lastModifiedDate) {
 		super();
 		this.firstName = firstName;
@@ -153,13 +153,13 @@ public class Vendor
 
 
 
-	public int getContactNo() {
+	public String getContactNo() {
 		return contactNo;
 	}
 
 
 
-	public void setContactNo(int contactNo) {
+	public void setContactNo(String contactNo) {
 		this.contactNo = contactNo;
 	}
 
