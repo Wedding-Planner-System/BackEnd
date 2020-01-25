@@ -25,7 +25,6 @@ public class Venue
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer venueId;
-	private int vendorId;
 	private String venueName;
 	@Embedded
 	private Address address;
@@ -44,157 +43,121 @@ public class Venue
 		System.out.println("in Venue default constructor");
 	}
 
-	//paramterised cobnstrudtor
-	public Venue(int vendorId, String name, Address addr, double lattitude, double logitude, int capacity,
-			double amount, String extra, byte[] venueImage, Date createdDate, Date lastModifiedDate) {
+	//paramterised construdtor
+	public Venue(Integer venueId, String venueName, Address address, double lattitude, double logitude, int capacity,
+			double price, String extra, byte[] venueImage, Date createdDate, Date lastModifiedDate) {
 		super();
-		this.vendorId = vendorId;
-		this.venueName = name;
-		this.address = addr;
+		this.venueId = venueId;
+		this.venueName = venueName;
+		this.address = address;
 		this.lattitude = lattitude;
 		this.logitude = logitude;
 		this.capacity = capacity;
-		this.price = amount;
+		this.price = price;
 		this.extra = extra;
 		this.venueImage = venueImage;
 		this.createdDate = createdDate;
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
-
-	//paramaterised constructor
-	public Venue( String name, Address addr, double lattitude, double logitude, int capacity,
-			double amount, String extra, byte[] venueImage, Date createdDate, Date lastModifiedDate) {
+	public Venue(String venueName, Address address, double lattitude, double logitude, int capacity, double price,
+			String extra, byte[] venueImage, Date createdDate, Date lastModifiedDate) {
 		super();
-		
-		this.venueName = name;
-		this.address = addr;
+		this.venueName = venueName;
+		this.address = address;
 		this.lattitude = lattitude;
 		this.logitude = logitude;
 		this.capacity = capacity;
-		this.price = amount;
+		this.price = price;
 		this.extra = extra;
 		this.venueImage = venueImage;
 		this.createdDate = createdDate;
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
-
-	
 	public Integer getVenueId() {
 		return venueId;
 	}
-
 
 	public void setVenueId(Integer venueId) {
 		this.venueId = venueId;
 	}
 
-
-	public int getVendorId() {
-		return vendorId;
-	}
-
-
-	public void setVendorId(int vendorId) {
-		this.vendorId = vendorId;
-	}
-
-
 	public String getVenueName() {
 		return venueName;
 	}
 
-
-	public void setVenueName(String name) {
-		this.venueName = name;
+	public void setVenueName(String venueName) {
+		this.venueName = venueName;
 	}
 
-	
 	public Address getAddress() {
 		return address;
 	}
 
-
-	public void setAddress(Address addr) {
-		this.address = addr;
+	public void setAddress(Address address) {
+		this.address = address;
 	}
-
 
 	public double getLattitude() {
 		return lattitude;
 	}
 
-
 	public void setLattitude(double lattitude) {
 		this.lattitude = lattitude;
 	}
-
 
 	public double getLogitude() {
 		return logitude;
 	}
 
-
 	public void setLogitude(double logitude) {
 		this.logitude = logitude;
 	}
-
 
 	public int getCapacity() {
 		return capacity;
 	}
 
-
 	public void setCapacity(int capacity) {
 		this.capacity = capacity;
 	}
-
 
 	public double getPrice() {
 		return price;
 	}
 
-
-	public void setPrice(double amount) {
-		this.price = amount;
+	public void setPrice(double price) {
+		this.price = price;
 	}
-
 
 	public String getExtra() {
 		return extra;
 	}
 
-
 	public void setExtra(String extra) {
 		this.extra = extra;
 	}
-
 
 	public byte[] getVenueImage() {
 		return venueImage;
 	}
 
-
 	public void setVenueImage(byte[] venueImage) {
 		this.venueImage = venueImage;
 	}
-
 
 	public Date getCreatedDate() {
 		return createdDate;
 	}
 
-
 	public void setCreatedDate(Date createdDate) {
 		this.createdDate = createdDate;
 	}
 
-
 	public Date getLastModifiedDate() {
 		return lastModifiedDate;
 	}
-
 
 	public void setLastModifiedDate(Date lastModifiedDate) {
 		this.lastModifiedDate = lastModifiedDate;
@@ -202,26 +165,9 @@ public class Venue
 
 	@Override
 	public String toString() {
-		return "Venue [venueId=" + venueId + ", vendorId=" + vendorId + ", venueName=" + venueName + ", address="
-				+ address + ", lattitude=" + lattitude + ", logitude=" + logitude + ", capacity=" + capacity
-				+ ", price=" + price + ", extra=" + extra + ", venueImage=" + Arrays.toString(venueImage)
-				+ ", createdDate=" + createdDate + ", lastModifiedDate=" + lastModifiedDate + "]";
+		return "Venue [venueId=" + venueId + ", venueName=" + venueName + ", address=" + address + ", lattitude="
+				+ lattitude + ", logitude=" + logitude + ", capacity=" + capacity + ", price=" + price + ", extra="
+				+ extra + ", venueImage=" + Arrays.toString(venueImage) + ", createdDate=" + createdDate
+				+ ", lastModifiedDate=" + lastModifiedDate + "]";
 	}
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
