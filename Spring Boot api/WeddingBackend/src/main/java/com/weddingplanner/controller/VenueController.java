@@ -9,10 +9,13 @@ package com.weddingplanner.controller;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Arrays;
+import java.util.Base64;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
@@ -53,16 +56,33 @@ public class VenueController
 	
 	
 	// REST request handling method to  get all venues.
-	@GetMapping
-	public ResponseEntity<?> getAllVenues() 
-	{
-		System.out.println("in gel all venues");
-		// invoke service layer method to get venueslist
-		List<Venue> allVenues = service.getAllVenues();
-		if (allVenues.size() == 0)
-			return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
-		return new ResponseEntity<List<Venue>>(allVenues, HttpStatus.OK);
-	}
+		@GetMapping
+		public ResponseEntity<?> getAllVenues() throws IOException 
+		{
+			System.out.println("in gel all venues");
+			System.out.println("try");
+			// invoke service layer method to get venueslist
+			List<Venue> allVenues = service.getAllVenues();
+			if (allVenues.size() == 0)
+				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
+			for(int i=0;i<=allVenues.size()-1;i++)
+			{
+				Venue v=allVenues.get(i);
+				String path = "E:/menu.jpg";
+				FileInputStream imgStream = new FileInputStream(path);
+				BufferedImage img = ImageIO.read(imgStream);
+				ByteArrayOutputStream out = new ByteArrayOutputStream();
+				ImageIO.write(img, "jpg", out);
+				byte[] bytes = out.toByteArray();
+
+				String base64bytes = Base64.getEncoder().encodeToString(bytes);
+				System.out.println(base64bytes);
+			      
+				v.setVenueImage(base64bytes.getBytes());
+				
+			}
+			return new ResponseEntity<List<Venue>>(allVenues, HttpStatus.OK);
+		}
 
 	// REST request handling method to get venue details by id
 	@GetMapping("/{empId}")

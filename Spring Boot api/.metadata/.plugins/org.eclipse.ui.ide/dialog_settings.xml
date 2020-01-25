@@ -101,7 +101,6 @@
 		<item value="org.springsource.sts.cft:3.9.10.201909190739-RELEASE"/>
 		<item value="org.springsource.sts.package:3.9.10.201909190739-RELEASE-e413"/>
 		<item value="org.springsource.sts:3.9.10.201909190739-RELEASE"/>
-		<item value="org.testng.eclipse:7.0.0.201908240652"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
