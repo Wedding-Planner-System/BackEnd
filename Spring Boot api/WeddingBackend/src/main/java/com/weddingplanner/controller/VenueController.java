@@ -60,6 +60,7 @@ public class VenueController
 		public ResponseEntity<?> getAllVenues() throws IOException 
 		{
 			System.out.println("in gel all venues");
+			System.out.println("try");
 			// invoke service layer method to get venueslist
 			List<Venue> allVenues = service.getAllVenues();
 			if (allVenues.size() == 0)
