@@ -15,12 +15,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.Arrays;
-import java.util.Base64;
 import java.util.List;
 
 import javax.annotation.PostConstruct;
 import javax.imageio.ImageIO;
-
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -31,12 +29,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.weddingplanner.pojos.Venue;
 import com.weddingplanner.service.IVenueService;
 
@@ -65,30 +63,12 @@ public class VenueController
 			List<Venue> allVenues = service.getAllVenues();
 			if (allVenues.size() == 0)
 				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
-			for(int i=0;i<=allVenues.size()-1;i++)
-			{
-				Venue v=allVenues.get(i);
-				
-				System.out.println(v.getVenueImage().toString());
-				String str=new String(v.getVenueImage());
-				System.out.println(str);
-				System.out.println(str.getBytes());
-				FileInputStream imgStream = new FileInputStream("D:/img_2020-01-22.jpg");
-				BufferedImage img = ImageIO.read(imgStream);
-				ByteArrayOutputStream out = new ByteArrayOutputStream();
-				ImageIO.write(img, "jpg", out);
-				byte[] bytes = out.toByteArray();
-			String base64bytes = org.apache.tomcat.util.codec.binary.Base64.encodeBase64String(bytes);
-			System.out.println(base64bytes);
-	      
-			v.setVenueImage(base64bytes.getBytes());
-				
-			}
+			
 			return new ResponseEntity<List<Venue>>(allVenues, HttpStatus.OK);
 		}
 
 	// REST request handling method to get venue details by id
-	@GetMapping("/{empId}")
+	@GetMapping("/{venueId}")
 	public ResponseEntity<?> getVenueDetails(@PathVariable int venueId) {
 		System.out.println("get venue dtls " + venueId);
 		Venue venueDetails = service.getVenueDetails(venueId);
@@ -99,26 +79,18 @@ public class VenueController
 
 	
 	@PostMapping
-	public ResponseEntity<?> saveVenueDetails(@RequestBody Venue venue) {
-		
-
+	public ResponseEntity<?> saveVenueDetails(@RequestParam String venue,
+			@RequestParam(value = "image", required = false) MultipartFile image) {
 		try {
-			Venue theVenue =venue;
-			
-			
-			
-			BufferedImage img = ImageIO.read(new ByteArrayInputStream(venue.getVenueImage()));	
-			System.out.println(img);
-		LocalDate dt=LocalDate.now();
-			String imgname="img_"+dt.toString();
-			File outputfile = new File("D:/"+imgname+".jpg");
-			ImageIO.write(img, "jpg", outputfile);
-			
-			theVenue.setImageName(outputfile.getPath());
-			
-			System.out.println(venue.toString());
-			
-			
+			System.out.println("in save");
+			ObjectMapper mapper = new ObjectMapper();
+			Venue theVenue=mapper.readValue(venue, Venue.class);
+			if(image!=null)
+			{
+				theVenue.setVenueImage(image.getBytes());
+			}
+			theVenue.setCreatedDate(LocalDate.now());
+			theVenue.setLastModifiedDate(LocalDate.now());
 			return new ResponseEntity<Venue>(service.addNewVenueDetails(theVenue), HttpStatus.CREATED);
 		} catch (Exception e1) {
 			e1.printStackTrace();// only for debugging

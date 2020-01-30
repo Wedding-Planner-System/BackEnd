@@ -4,6 +4,7 @@
  */
 package com.weddingplanner.pojos;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -25,6 +26,7 @@ public class Venue
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer venueId;
+	private int VendorId;
 	private String venueName;
 	@Embedded
 	private Address address;
@@ -34,9 +36,8 @@ public class Venue
 	private String extra;
 	@Lob
 	private byte[] venueImage;
-	private String imageName;
-	private Date createdDate;
-	private Date lastModifiedDate;
+	private LocalDate createdDate;
+	private LocalDate lastModifiedDate;
 	
 	
 	//default constructor
@@ -46,10 +47,11 @@ public class Venue
 	}
 
 
-	public Venue(Integer venueId, String venueName, Address address, double lattitude, double logitude, int capacity,
-			double price, String extra, byte[] venueImage, String imageName, Date createdDate, Date lastModifiedDate) {
+	public Venue(Integer venueId, int vendorId, String venueName, Address address, double lattitude, double logitude,
+			int capacity, double price, String extra, byte[] venueImage, LocalDate createdDate, LocalDate lastModifiedDate) {
 		super();
 		this.venueId = venueId;
+		VendorId = vendorId;
 		this.venueName = venueName;
 		this.address = address;
 		this.lattitude = lattitude;
@@ -58,15 +60,15 @@ public class Venue
 		this.price = price;
 		this.extra = extra;
 		this.venueImage = venueImage;
-		this.imageName = imageName;
 		this.createdDate = createdDate;
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
 
-	public Venue(String venueName, Address address, double lattitude, double logitude, int capacity, double price,
-			String extra, byte[] venueImage, String imageName, Date createdDate, Date lastModifiedDate) {
+	public Venue(int vendorId, String venueName, Address address, double lattitude, double logitude, int capacity,
+			double price, String extra, byte[] venueImage, LocalDate createdDate, LocalDate lastModifiedDate) {
 		super();
+		VendorId = vendorId;
 		this.venueName = venueName;
 		this.address = address;
 		this.lattitude = lattitude;
@@ -75,7 +77,6 @@ public class Venue
 		this.price = price;
 		this.extra = extra;
 		this.venueImage = venueImage;
-		this.imageName = imageName;
 		this.createdDate = createdDate;
 		this.lastModifiedDate = lastModifiedDate;
 	}
@@ -88,6 +89,16 @@ public class Venue
 
 	public void setVenueId(Integer venueId) {
 		this.venueId = venueId;
+	}
+
+
+	public int getVendorId() {
+		return VendorId;
+	}
+
+
+	public void setVendorId(int vendorId) {
+		VendorId = vendorId;
 	}
 
 
@@ -171,45 +182,36 @@ public class Venue
 	}
 
 
-	public String getImageName() {
-		return imageName;
-	}
-
-
-	public void setImageName(String imageName) {
-		this.imageName = imageName;
-	}
-
-
-	public Date getCreatedDate() {
+	public LocalDate getCreatedDate() {
 		return createdDate;
 	}
 
 
-	public void setCreatedDate(Date createdDate) {
+	public void setCreatedDate(LocalDate createdDate) {
 		this.createdDate = createdDate;
 	}
 
 
-	public Date getLastModifiedDate() {
+	public LocalDate getLastModifiedDate() {
 		return lastModifiedDate;
 	}
 
 
-	public void setLastModifiedDate(Date lastModifiedDate) {
+	public void setLastModifiedDate(LocalDate lastModifiedDate) {
 		this.lastModifiedDate = lastModifiedDate;
 	}
 
 
 	@Override
 	public String toString() {
-		return "Venue [venueId=" + venueId + ", venueName=" + venueName + ", address=" + address + ", lattitude="
-				+ lattitude + ", logitude=" + logitude + ", capacity=" + capacity + ", price=" + price + ", extra="
-				+ extra + ", venueImage=" + Arrays.toString(venueImage) + ", imageName=" + imageName + ", createdDate="
-				+ createdDate + ", lastModifiedDate=" + lastModifiedDate + "]";
+		return "Venue [venueId=" + venueId + ", VendorId=" + VendorId + ", venueName=" + venueName + ", address="
+				+ address + ", lattitude=" + lattitude + ", logitude=" + logitude + ", capacity=" + capacity
+				+ ", price=" + price + ", extra=" + extra + ", venueImage=" + Arrays.toString(venueImage)
+				+ ", createdDate=" + createdDate + ", lastModifiedDate=" + lastModifiedDate + "]";
 	}
 
-	//paramterised construdtor
+
+	
 	
 	
 	

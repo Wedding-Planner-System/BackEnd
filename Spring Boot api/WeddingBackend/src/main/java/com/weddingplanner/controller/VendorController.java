@@ -6,6 +6,7 @@ import java.util.List;
 
 import javax.annotation.PostConstruct;
 
+import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -16,6 +17,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -36,9 +38,7 @@ public class VendorController
 	@Autowired
 	private IVendorService service;
 	
-	
-	
-	
+
 	public VendorController() {
 		// TODO Auto-generated constructor stub
 		System.out.println("in Vendor controller");
@@ -64,7 +64,9 @@ public class VendorController
 			else
 			{
 				System.out.println("svs");
-				return new ResponseEntity<String>("Email Already Exists",HttpStatus.OK);
+				JSONObject obj=new JSONObject();
+				obj.put("message","Email aready Exists");
+				return new ResponseEntity<JSONObject>(obj,HttpStatus.OK);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -90,6 +92,24 @@ public class VendorController
 		Vendor theVendor=service.getVendorById(vendorId);
 		theVendor.setStatus("0");
 		service.updateVendorDetails(theVendor);
+        return new ResponseEntity<Vendor>(theVendor,HttpStatus.OK);
+
+	}
+	
+	@GetMapping("/{vendorId}")
+	public ResponseEntity<Vendor> getVendorById(@PathVariable int vendorId) {
+		System.out.println("get vendor dtls " + vendorId);
+		Vendor theVendor=service.getVendorById(vendorId);
+        return new ResponseEntity<Vendor>(theVendor,HttpStatus.OK);
+
+	}
+	
+	@PutMapping("/{vendorId}")
+	public ResponseEntity<Vendor> updateVendorDetails(@RequestBody Vendor vendor) {
+		System.out.println("update vendor dtls " + vendor.getFirstName());
+		vendor.setStatus("1");
+		Vendor theVendor=service.updateVendorDetails(vendor);
+		
         return new ResponseEntity<Vendor>(theVendor,HttpStatus.OK);
 
 	}
